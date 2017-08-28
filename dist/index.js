@@ -329,7 +329,7 @@ var RenderPDF = function () {
                                 chromeExec = _context7.t0;
 
                                 this.log('Using', chromeExec);
-                                this.chrome = cp.spawn(chromeExec, ['--headless', '--remote-debugging-port=' + this.port, '--disable-gpu', '--print-to-pdf']);
+                                this.chrome = cp.spawn(chromeExec, ['--headless', '--remote-debugging-port=' + this.port, '--disable-gpu']);
                                 this.chrome.on('close', function (code) {
                                     _this2.log('Chrome stopped (' + code + ')');
                                     _this2.browserLog('out', _this2.chrome.stdout.toString());

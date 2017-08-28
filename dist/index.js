@@ -471,7 +471,7 @@ var RenderPDF = function () {
                                     break;
                                 }
 
-                                return _context9.abrupt('return', '/Applications/Google\\ Chrome\\ Canary.app/Contents/MacOS/Google\\ Chrome\\ Canary');
+                                return _context9.abrupt('return', '/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary');
 
                             case 28:
                                 _context9.next = 30;

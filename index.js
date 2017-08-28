@@ -205,7 +205,7 @@ class RenderPDF {
         }
         // macos
         if (await this.isCommandExists('/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary')) {
-            return '/Applications/Google\\ Chrome\\ Canary.app/Contents/MacOS/Google\\ Chrome\\ Canary';
+            return '/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary';
         }
         if (await this.isCommandExists('/Applications/Google\ Chrome Dev.app/Contents/MacOS/Google\ Chrome')) {
             return '/Applications/Google\\ Chrome Dev.app/Contents/MacOS/Google\\ Chrome';

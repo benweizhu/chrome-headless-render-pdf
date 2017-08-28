@@ -162,7 +162,7 @@ class RenderPDF {
         this.log('Using', chromeExec);
         this.chrome = cp.spawn(
             chromeExec,
-            ['--headless', `--remote-debugging-port=${this.port}`, '--disable-gpu', '--print-to-pdf']
+            ['--headless', `--remote-debugging-port=${this.port}`, '--disable-gpu']
         );
         this.chrome.on('close', (code) => {
             this.log(`Chrome stopped (${code})`);
